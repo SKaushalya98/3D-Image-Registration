@@ -11,7 +11,7 @@ T1-Weighted MRI and T2-Weighted MRI volumes from a same subject acquired as a pa
 ![](Registration_gifs/Moving_image.gif)
 Initially, there is small different in orientation between the two volumes. 
 
-Red = T1-Weighted MRI
+Red = T1-Weighted MRI <br />s
 Blue = T2-Weighted MRI
 ![](Registration_gifs/Before_registration.gif)
 
@@ -28,7 +28,7 @@ Similarity metric = Mutual information
 
 ## Results 
 
-Red = Fixed Image        
+Red = Fixed Image <br />
 Blue = Resampled Moving Image
 ![](Registration_gifs/After_registration.gif)
 
@@ -41,9 +41,9 @@ The fixed, moving and moving resampled  images are compared using 3D Slicer soft
 
 Image registration is validated by visual insepection and results of automatic registration feature of ITK-SNAP software. 
 
-First row, First column = Fixed Image 
-First row, Second column = Resampled moving Image by ITK-SNAP 
-Second row, First column = Overlaid fixed and moving image 
-Second row, Second column = Overlaid resampled moving image by itk and ITKSNAP 
+First row, First column = Fixed Image <br />
+First row, Second column = Resampled moving Image by ITK-SNAP <br />
+Second row, First column = Overlaid fixed and moving image<br />
+Second row, Second column = Overlaid resampled moving image by itk and ITKSNAP <br />
 
 ![](Registration_gifs/Evaluation.gif)
