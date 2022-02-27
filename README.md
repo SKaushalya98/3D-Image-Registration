@@ -6,14 +6,14 @@ This repository contains python script, dataset, and results of image registrati
 
 T1-Weighted MRI and T2-Weighted MRI volumes from a same subject acquired as a part of Female data set of Visible Human Project.
 
-![](Fixed_image.gif)
+![](Registration_gifs/Fixed_image.gif)
 
-![](Moving_image.gif)
+![](Registration_gifs/Moving_image.gif)
 Initially, there is small different in orientation between the two volumes. 
 
 Red = T1-Weighted MRI
 Blue = T2-Weighted MRI
-![](Before_registration.gif)
+![](Registration_gifs/Before_registration.gif)
 
 ## 3D Image Registration
 
@@ -30,15 +30,15 @@ Similarity metric = Mutual information
 
 Red = Fixed Image
 Blue = Resampled Moving Image
-![](After_registration.gif)
+![](Registration_gifs/After_registration.gif)
 
 ## Impact of Image Registration - Comparision
 
 The fixed, moving and moving resampled  images are compared using 3D Slicer software tool. 
-![](Comparsion.gif)
+![](Registration_gifs/Comparsion.gif)
 
 ## Evalution 
 
 Image registration is validated by visual insepection and results of automatic registration feature of ITK-SNAP software. 
 
-![](Evaluation.gif)
+![](Registration_gifs/Evaluation.gif)
