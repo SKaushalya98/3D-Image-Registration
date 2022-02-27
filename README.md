@@ -9,10 +9,13 @@ T1-Weighted MRI and T2-Weighted MRI volumes from a same subject acquired as a pa
 ![](Registration_gifs/Fixed_image.gif)
 
 ![](Registration_gifs/Moving_image.gif)
+
 Initially, there is small different in orientation between the two volumes. 
 
-Red = T1-Weighted MRI,
+Red = T1-Weighted MRI
+
 Blue = T2-Weighted MRI
+
 ![](Registration_gifs/Before_registration.gif)
 
 ## 3D Image Registration
@@ -28,13 +31,16 @@ Registration is performed in order to discover the best transformation that alig
 
 ## Results 
 
-Red = Fixed Image,
+Red = Fixed Image
+
 Blue = Resampled Moving Image
+
 ![](Registration_gifs/After_registration.gif)
 
 ## Impact of Image Registration - Comparision
 
 The fixed, moving and moving resampled  images are compared using 3D Slicer software tool. 
+
 ![](Registration_gifs/Comparsion.gif)
 
 ## Evalution 
