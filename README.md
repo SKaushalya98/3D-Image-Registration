@@ -11,7 +11,7 @@ T1-Weighted MRI and T2-Weighted MRI volumes from a same subject acquired as a pa
 ![](Registration_gifs/Moving_image.gif)
 Initially, there is small different in orientation between the two volumes. 
 
-Red = T1-Weighted MRI<br />
+Red = T1-Weighted MRI
 Blue = T2-Weighted MRI
 ![](Registration_gifs/Before_registration.gif)
 
@@ -19,16 +19,16 @@ Blue = T2-Weighted MRI
 
 Registration is performed in order to discover the best transformation that aligns the regions of interest in the supplied images. Translation registration is carried out to register two MRI volumes using the registration methods of ITK python package. In this assignment, T2-Weighted MRI volume is registered to T1-Weighted MRI volume.
 
-Fixed Image = T1-Weighted MRI
-Moving Image = T2-Weighted MRI
-Initial transformation = Translation transform
-Optimizer = Gradient descent 
-Interpolator = Nearest neighbor 
-Similarity metric = Mutual information
+**Fixed Image = T1-Weighted MRI** <br />
+**Moving Image = T2-Weighted MRI** <br />
+**Initial transformation = Translation transform** <br />
+**Optimizer = Gradient descent** <br />
+**Interpolator = Nearest neighbor** <br />
+**Similarity metric = Mutual information** <br />
 
 ## Results 
 
-Red = Fixed Image<br />
+Red = Fixed Image
 Blue = Resampled Moving Image
 ![](Registration_gifs/After_registration.gif)
 
