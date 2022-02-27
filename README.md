@@ -28,7 +28,7 @@ Similarity metric = Mutual information
 
 ## Results 
 
-Red = Fixed Image
+Red = Fixed Image        
 Blue = Resampled Moving Image
 ![](Registration_gifs/After_registration.gif)
 
@@ -40,5 +40,10 @@ The fixed, moving and moving resampled  images are compared using 3D Slicer soft
 ## Evalution 
 
 Image registration is validated by visual insepection and results of automatic registration feature of ITK-SNAP software. 
+
+First row, First column = Fixed Image 
+First row, Second column = Resampled moving Image by ITK-SNAP 
+Second row, First column = Overlaid fixed and moving image 
+Second row, Second column = Overlaid resampled moving image by itk and ITKSNAP 
 
 ![](Registration_gifs/Evaluation.gif)
